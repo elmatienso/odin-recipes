@@ -1,0 +1,1 @@
+//Hi, my name is Mateo and this is my first project for The Odin Project curriculum. For being brief, this is going to be a basic little page thats going to have a few recipes from my country (Colombia). Aplying everything i have learned about HTML, Git and Github so far. Enjoy! (I guess...)

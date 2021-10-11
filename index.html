@@ -2,8 +2,11 @@
 <html>
     <head>
         <title>Odin Recipes</title>
-        <meta charset="UTF-8"/>
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="css/style.css" />
     </head>
     <body>
         <heading>
@@ -11,17 +14,27 @@
         </heading>
         <article>
             <!--The main title-->
-            <section>
+            <section class="main-title">
                 <h1>Odin Recipes</h1>
+                <hr style="width: 50%;color: rgb(255, 170, 140);">
                 <h4>Hello there and welcome to my first project for TOP, i hope you enjoy. Three delicious recipes from my dear Colombia. Take a look and give them a try!</h4>
                    
             </section>
             <!--This is a list of my three recipes, the names are in spanish-->
-            <section>
+            <section class="content-selector">
                 <h3>The Big Three:</h3>
-                 <a href="recipes/changua.html">Changua</a><br>
-                 <a href="recipes/mazamorra.html">Mazamorra Chiquita</a><br>
-                 <a href="recipes/tamal.html">Tamales</a>
+                <hr style="width: 50%;color: rgb(255, 170, 140);">
+                    
+                    <div id="changua-card">
+                        <a href="recipes/changua.html">Changua</a>
+                    </div>
+                    <div id="mazamorra-card">
+                        <a href="recipes/mazamorra.html">Mazamorra Chiquita</a>
+                    </div>
+                    
+                    <div id="tamal-card">
+                        <a href="recipes/tamal.html">Tamales</a>
+                    </div>
             </section>
         </article>
     </body>
